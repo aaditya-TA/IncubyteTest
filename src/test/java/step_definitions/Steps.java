@@ -8,13 +8,15 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import pageObjects.InboxPage;
-import pageObjects.SignInPage;
+import pageObjects.*;
 import resources.Base;
+
 import java.io.IOException;
 import java.time.Duration;
 
 public class Steps extends Base {
+
+
 
     SignInPage signInPageObj;
     InboxPage inboxPageObj;
